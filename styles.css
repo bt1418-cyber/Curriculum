@@ -1,0 +1,190 @@
+body{
+    background-color:#000000;
+    font-family: Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+header{
+    background-color: #2f8213;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: rgba(255, 255, 255, 0.778);
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    border-radius: 500000px;
+}
+nav{
+    background-color: #1e820d;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #1a5002;
+}
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #13b623;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(56, 115, 10);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.574);
+    margin-top: 20px;
+}
+.container h2{
+  background-color: #117014;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+.pdp{
+   background-color: #137a16;
+   border-radius: 20px;
+}
+.pdp p{
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white; 
+    color: #177017;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.775);
+}
+.scroll-to-top:hover{
+    background-color: #227b12;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    nav ul li{
+        display: block;
+        margin: 5px 0;
+    }
+    nav ul li a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .logo img{
+        width: 80%;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .scroll-to-top{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .logo img{
+        width: 70%;
+    }
+    .container h2{
+        font-size: 18px;
+    }
+    .scroll-to-top{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 200px) {
+    .logo img{
+        width: 60%;
+    }
+    .container h2{
+        font-size: 16px;
+    }
+    .scroll-to-top{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width: 100px) {
+    .logo img{
+        width: 50%;
+    }
+    .container h2{
+        font-size: 14px;
+    }
+    .scroll-to-top{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 50px) {
+    .logo img{
+        width: 40%;
+    }
+    .container h2{
+        font-size: 12px;
+    }
+    .scroll-to-top{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        font-size: 10px;
+    }
+}
